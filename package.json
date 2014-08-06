@@ -16,7 +16,8 @@
     "node": ">=0.10.22"
   },
   "scripts": {
-    "start": "node node_modules/hoodie-server/bin/start"
+    "start": "node node_modules/hoodie-server/bin/start",
+    "browserify": "./node_modules/.bin/browserify www/assets/js/main.js -o www/assets/js/app.bundle.js"
   },
   "hoodie": {
     "plugins": [
